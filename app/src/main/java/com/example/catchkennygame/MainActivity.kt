@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                 val random=Random();
                 val randomIndex=random.nextInt(9)//o ile 8 arasonda sayı doner
                 imageArray[randomIndex].visibility=View.VISIBLE;
-                handler.postDelayed(runnable,500);//yarım saniye olunca tıklamak zor olur ve oyun guzellesir
+                handler.postDelayed(runnable,500);
 
 
             }
